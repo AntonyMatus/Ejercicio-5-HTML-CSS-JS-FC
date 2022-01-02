@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="./js/script.js"></script>   
+    <title>Tabla Alumnos</title>
+</head>
+<body>
+    <header>
+        <div class="frame22">
+            <div class="frame1217">
+                <div class="frame1182">
+                    <h2>OpenBootcamp <strong> <span class="textoAlumnos"> | Alumnos</span></strong></h2>
+                </div>
+            </div>
+            <div class="frame1216">
+                <div class="frame1893">
+                    <div class="frame1200">
+                      <div class="frame1283"> <p class="na">NA</p>
+                      </div>
+                      <p class="username">Username</p>
+                    </div>
+                    <select name="" id="" class="icon">
+                        <option value="logout">Cerrar sessión</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="frame1998">
+       <div class="frame2000">
+           <div class="frame1673">
+               <div class="frame1964">
+                   <div class="frame2002">
+                        <p class="alumnos">Alumnos</p>
+                        <input type="text" class="input" id="myInput" onkeyup="myFunction();" placeholder="Buscar por Nombre, Email, o Palabra Clave">
+                        </div>
+                        <button class="button">+ Añadir alumno</button>
+                </div>
+                <div class="frame1076">
+                    <table class="frame1723" id="content-table">
+                        <thead>
+                            <tr class="frame758">
+                                <th class="thNombre">NOMBRE &nbsp;&nbsp; <a
+                                    onclick="sort(true, 'id', 'content-table');"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'id', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                </th>
+                                <th class="thCiudad">CIUDAD  &nbsp;&nbsp;  <a
+                                    onclick="sort(true, 'country', 'content-table')"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'country', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                </th>
+                                <th class="thPais">PAIS <a
+                                    onclick="sort(true, 'some-fact', 'content-table')"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'some-fact', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                <th>
+                                <th class="thTelefono">TELÉFONO <a
+                                    onclick="sort(true, 'phone', 'content-table')"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'phone', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                <th>
+                                <th class="thCorreo">CORREO <a
+                                    onclick="sort(true, 'email', 'content-table')"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'email', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                <th>
+                                <th class="thEtiquetas">ETIQUETAS <a
+                                    onclick="sort(true, 'etiq', 'content-table')"><i class="fas fa-sort-alpha-up"></i></a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+                                    onclick="sort(false, 'etiq', 'content-table');"><i class="fas fa-sort-alpha-down-alt"></i></a>
+                                <th>
+                            </tr>
+                        </thead>
+                        <tbody class="frame1077">
+                            <tr>
+                                <td class="id" id="tdNombre">Juan Pedro Garcia</td>
+                                <td class="country" id="tdCiudad">Cordoba</td>
+                                <td class="some-fact" id="tdPais">España</td>
+                                <td class="phone" id="tdTelefono">+34 123 85 25 46</td>
+                                <td class="email" id="tdCorreo">jcordoba@gmail.com</td>
+                                <td class="etiq" id="tdEtiquetas"><span class="etiqueta">ANGULAR</span>  <span class="etiqueta">HTML CSS</span>  <span class="etiqueta">+2</span></td>
+                            </tr>
+                            <tr>
+                                <td class="id" id="tdNombre">Alvaro Sanchez Monteagudo</td>
+                                <td class="country" id="tdCiudad">Valencia</td>
+                                <td class="some-fact" id="tdPais">España</td>
+                                <td class="phone" id="tdTelefono">+34 657 85 25 46</td>
+                                <td class="email" id="tdCorreo">smonteagudo@gmail.com</td>
+                                <td class="etiq" id="tdEtiquetas"><span class="etiqueta">PHYTON</span>  <span class="etiqueta">GITHUB</span></td>
+                            </tr>
+                            <tr>
+                                <td class="id" id="tdNombre">Adrian Martin Salcedo</td>
+                                <td class="country" id="tdCiudad">Zaragoza</td>
+                                <td class="some-fact" id="tdPais">España</td>
+                                <td class="phone" id="tdTelefono">+34 345 85 25 46</td>
+                                <td class="email" id="tdCorreo">zaragozaa@gmail.com</td>
+                                <td class="etiq" id="tdEtiquetas"><span class="etiqueta">ANGULAR</span>  <span class="etiqueta">REACT</span></td>
+                            </tr>
+                            <tr>
+                                <td class="id" id="tdNombre">Fabian Rodriguez Polo</td>
+                                <td class="country" id="tdCiudad">San Sebastian</td>
+                                <td class="some-fact" id="tdPais">España</td>
+                                <td class="phone" id="tdTelefono">+34 123 33 25 46</td>
+                                <td class="email" id="tdCorreo">sansebastian@gmail.com</td>
+                                <td class="etiq" id="tdEtiquetas"><span class="etiqueta">ANGULAR</span>  <span class="etiqueta">JAVA</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+               </div>
+               <div class="frame1422">
+                    <div class="frame2001">
+                        <p class="filtros">Filtros de búsqueda</p>
+                        <img src="./img/trash.png" alt="trash" class="borrar" >
+                    </div>
+                   <div class="frame1999">
+                        <div class="frame1380">
+                            <div class="frame1433">
+                                <p class="etiquetas">Etiquetas</p>
+                                <select class="frame1328">
+                                    <option>Escribe para buscar</option>
+                                </select>
+                            </div>
+                            <div class="frame1430">
+                                <div class="frame1401">
+                                    <div class="tagReact">
+                                        <p class="react">REACT</p>
+                                        <img src="./img/x.png" alt="" class="cruz">
+                                    </div>
+                                    <div class="tagHtml">
+                                        <p class="html">HTML&CSS</p>
+                                        <img src="./img/x.png" alt="" class="cruz">
+                                    </div>
+                                </div>
+                                <div class="frame1403">
+                                    <div class="tagAngular">
+                                        <p class="angular">ANGULAR</p>
+                                        <img src="./img/x.png" alt="" class="cruz">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame1433">
+                            <p class="pais">País</p>
+                            <select class="frame13282">
+                                <option value="España">España</option>
+                                <option value="México">México</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Argentina">Argentina</option>
+                            </select>
+                        </div>
+                        <div class="frame1434">
+                            <p class="ciudad">Ciudad</p>
+                            <select class="frame13283">
+                                <option value="Ciudad">Valencia</option>
+                                <option value="Ciudad">Cozumel</option>
+                                <option value="Ciudad">Barcelona</option>
+                                <option value="Ciudad">Madrid</option>
+                            </select>
+                        </div>
+                        <div class="frame14222">
+                            <p class="presencialDistancia">Presencial / a distancia</p>
+                            <div class="frame1421">
+                                <div class="frame1414">
+                                    <input type="checkbox" class="checkPresencial">
+                                    <p class="presencial">Presencial</p>
+                                </div>
+                                <div class="frame1415">
+                                    <input type="checkbox" class="checkRemoto">
+                                    <p class="remoto">En remoto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame1435">
+                            <p class="posibilidadTraslado">Posibilidad traslado</p>
+                            <div class="frame14212">
+                                <div class="frame14142">
+                                    <input type="checkbox" class="checkSi">
+                                    <p class="si">Si</p>
+                                </div>
+                                <div class="frame14152">
+                                    <input type="checkbox" class="checkNo">
+                                    <p class="no">No</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>

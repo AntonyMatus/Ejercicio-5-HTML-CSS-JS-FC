@@ -1,0 +1,1482 @@
+body {
+  
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    background: #e5e5e5;
+  }
+  
+  .frame22 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 40px 12px;
+
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    right: 0px;
+    top: 0px;
+    background: #F8F8F9;
+  }
+  
+  .frame1217 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1633px;
+    height: 40px;
+    left: 40px;
+    top: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 40px;
+  }
+  
+  .frame1182 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  
+    position: static;
+    width: 297px;
+    height: 28px;
+    left: 0px;
+    top: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+  }
+  
+  .openBootcampAlumnos {
+    position: static;
+    width: 297px;
+    height: 28px;
+    left: calc(50% - 297px / 2);
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  
+  .textoAlumnos {
+    color: green;
+    text-decoration-color: green;
+  }
+  
+  .frame1216 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 167px;
+    height: 40px;
+    left: 1713px;
+    top: 18px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+  }
+  .frame1893 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+    position: static;
+    width: 167px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 91px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+  }
+  
+  .frame1200 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+    position: static;
+    width: 137px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame1283 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #121625;
+    border-radius: 59px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .na {
+    position: static;
+    width: 22px;
+    height: 20px;
+    left: calc(50% - 22px / 2);
+    top: 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 130.9%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #515561;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  
+  .username {
+    position: static;
+    width: 72px;
+    height: 22px;
+    left: 55px;
+    top: 9px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+  }
+  
+  .icon {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 262px;
+    top: 0.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  
+  .frame1998 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1920px;
+    height: 830px;
+    left: 0px;
+    top: 70px;
+  }
+  
+  .frame2000 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    position: static;
+    width: 1796px;
+    height: 830px;
+    left: 62px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    background: #f8f8f9;
+  }
+  
+  .frame1673 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1440px;
+    height: 750px;
+    left: 40px;
+    top: 40px;
+    overflow-y: scroll;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0px 10px;
+    overflow: hidden;
+  }
+  
+  .frame1964 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1346px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+  .frame2002 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 447px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 14px 5px 10px;
+    position: static;
+    width: 168px;
+    height: 40px;
+    left: 1178px;
+    top: 0px;
+    background: #ffffff;
+    border: 1px solid #e6e6ea;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .alumnos {
+    position: static;
+    width: 80px;
+    height: 20px;
+    left: 0px;
+    top: 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 24px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    position: static;
+    width: 343px;
+    height: 40px;
+    left: 104px;
+    top: 0px;
+    text-align: center;
+    background: #e6e6ea url("../img/lupa.png") no-repeat 5%;
+    border-radius: 8px;
+    border: transparent;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+  }
+  
+  .lupa {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  
+  .frame1076 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1346px;
+    height: 785px;
+    left: 0px;
+    top: 56px;
+    background: #ffffff;
+    border: 1px solid #e6e6ea;
+    box-sizing: border-box;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+  .frame1723 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1346px;
+    height: 724px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 8px;
+    border: #e5e5e5;
+  }
+  
+  .paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    position: static;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 725px;
+    background: #ffffff;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame758 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 1346px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border: #e5e5e5;
+    border-radius: 18px;
+  }
+  
+  .frame1077 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 1346px;
+    height: 684px;
+    left: 0px;
+    top: 40px;
+    overflow-y: scroll;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    overflow: hidden;
+  }
+  
+  .thNombre {
+    position: static;
+    width: 260px;
+    height: 16px;
+    left: 24px;
+    top: 12px;
+    order: 0;
+    margin: 10px 0px 0px 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  .thCiudad {
+    position: static;
+    width: 165px;
+    height: 16px;
+    left: 300px;
+    top: 12px;
+    order: 1;
+    margin: 10px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  .thPais {
+    position: static;
+    width: 165px;
+    height: 16px;
+    left: 478px;
+    top: 12px;
+    order: 2;
+    margin: 10px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  .thTelefono {
+    position: static;
+    width: 170px;
+    height: 13px;
+    left: 656px;
+    top: 13.5px;
+    order: 3;
+    margin: 10px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  .thCorreo {
+    position: static;
+    width: 215px;
+    height: 16px;
+    left: 834px;
+    top: 12px;
+    order: 4;
+    margin: 10px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  .thEtiquetas {
+    position: static;
+    width: 230px;
+    height: 16px;
+    left: 1012px;
+    top: 12px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 10px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #a5a8b3;
+  }
+  
+  tbody tr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 1440px;
+    height: 56px;
+    left: 0px;
+    top: 1px;
+    background: #ffffff;
+    order: 1;
+    margin: 0px 0px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 60px;
+    height: 40px;
+    left: 1262px;
+    top: 8px;
+    opacity: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 20px;
+  }
+  
+  #tdNombre {
+    position: static;
+    width: 260px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    padding: 10px 0px 0px 10px;
+    order: 2;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+  }
+  
+  #tdCiudad {
+    position: static;
+    width: 165px;
+    height: 40px;
+    left: 276px;
+    top: 0px;
+    order: 3;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+  }
+  
+  #tdPais {
+    position: static;
+    width: 165px;
+    height: 40px;
+    left: 454px;
+    top: 0px;
+    order: 4;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+  }
+  
+  #tdTelefono {
+    position: static;
+    width: 170px;
+    height: 40px;
+    left: 632px;
+    top: 0px;
+    order: 5;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+  }
+  
+  #tdCorreo {
+    position: static;
+    width: 210px;
+    height: 40px;
+    left: 810px;
+    top: 0px;
+    order: 6;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+  }
+  
+  #tdEtiquetas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 230px;
+    height: 40px;
+    left: 988px;
+    top: 0px;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    margin: 0px 20px;
+  }
+  
+  .etiqueta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background: #32d5a4;
+    border-radius: 6px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  
+  .frame2001 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 21px;
+    left: 24px;
+    top: 10px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    
+  }
+  
+  .filtros {
+    position: static;
+    width: 172px;
+    height: 21px;
+    left: calc(50% - 172px / 2 - 55px);
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  #borrar {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 262px;
+    top: 0.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  
+  .frame1999 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 282px;
+    height: 546px;
+    left: 24px;
+    top: 77px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    
+  }
+  
+  .frame1380 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 138px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame1433 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 68px;
+    left: 0px;
+    top: 163px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .etiquetas {
+    position: static;
+    width: 282px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  .frame1328 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    position: static;
+    width: 282px;
+    height: 40px;
+    left: 0px;
+    top: 28px;
+    background: #e6e6ea;
+    border-radius: 8px;
+    border: transparent;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame1430 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 55px;
+    left: 0px;
+    top: 83px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 15px 0px;
+  }
+  
+  .frame1401 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 7px 0px;
+  }
+  
+  .tagReact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 6px 3px 10px;
+    position: static;
+    width: 77px;
+    height: 24px;
+    left: 109px;
+    top: 0px;
+    background: #e6e6ea;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  .react {
+    position: static;
+    width: 39px;
+    height: 14px;
+    left: calc(50% - 39px / 2 - 9px);
+    top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+  
+  .cruz {
+    position: static;
+    width: 18px;
+    height: 18px;
+    left: 53px;
+    top: 3px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+  
+  .tagHtml {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 6px 3px 10px;
+    position: static;
+    width: 103px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    background: #e6e6ea;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  
+  .html {
+    position: static;
+    width: 65px;
+    height: 14px;
+    left: calc(50% - 65px / 2 - 9px);
+    top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+  
+  .frame1403 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 31px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 7px 0px;
+  }
+  
+  .tagAngular {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 6px 3px 10px;
+    position: static;
+    width: 96px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    background: #e6e6ea;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  
+  .angular {
+    position: static;
+    width: 58px;
+    height: 14px;
+    left: calc(50% - 58px / 2 - 9px);
+    top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+  }
+  
+  .frame14332 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 68px;
+    left: 0px;
+    top: 163px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+  }
+  
+  .pais {
+    position: static;
+    width: 282px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 30px 0px 0px 0px;
+  }
+  
+  .frame13282 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    position: static;
+    width: 282px;
+    height: 40px;
+    left: 0px;
+    top: 28px;
+    background: #F8F8F9;
+    border-radius: 8px;
+    border: transparent;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  .frame1434 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 68px;
+    left: 0px;
+    top: 256px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+  }
+  
+  .frame13283 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    position: static;
+    width: 282px;
+    height: 40px;
+    left: 0px;
+    top: 28px;
+    background: #F8F8F9;
+    border-radius: 8px;
+    border: transparent;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+  
+  .ciudad {
+    position: static;
+    width: 282px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+  }
+  
+  .frame1422 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 24px 24px;
+
+    position: static;
+    width: 330px;
+    height: 647px;
+    left: 1426px;
+    top: 40px;
+
+    /* Inside Auto Layout */
+
+    background: #FFFFFF;
+    border: 1px solid #E6E6EA;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 40px;
+
+  }
+
+  .frame14222{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 282px;
+    height: 86px;
+    left: 0px;
+    top: 349px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+  }
+  
+  .presencialDistancia {
+    position: static;
+    width: 282px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame1421 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 58px;
+    left: 0px;
+    top: 28px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame1414 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  
+  .checkPresencial {
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    margin: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .frame1415 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 34px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .checkRemoto {
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  
+  .remoto {
+    position: static;
+    width: 250px;
+    height: 18px;
+    left: 32px;
+    top: 3px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+  }
+  
+  .frame1435 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 86px;
+    left: 0px;
+    top: 460px;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .posibilidadTraslado {
+    position: static;
+    width: 282px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .frame14212 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 58px;
+    left: 0px;
+    top: 28px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  
+  .frame14142 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  .checkSi {
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  
+  .si {
+    position: static;
+    width: 250px;
+    height: 18px;
+    left: 32px;
+    top: 3px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 8px;
+  }
+  
+  .frame14152 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 282px;
+    height: 24px;
+    left: 0px;
+    top: 34px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 5px 0px;
+  }
+  
+  .checkNo {
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  
+  .no {
+    position: static;
+    width: 250px;
+    height: 18px;
+    left: 32px;
+    top: 3px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #121625;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 8px;
+  }
+  
+  tr {
+    border: solid;
+    border-width: 1px 0;
+    color: #e5e5e5;
+    border-right: 1px;
+  }
